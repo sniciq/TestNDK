@@ -1,0 +1,17 @@
+1. Android NDK
+2. 目录：
+   src
+   bin
+   jni
+      Android.mk
+      ....h
+      ....c
+   libs
+      armeabi
+         .....so
+         
+3. 编译javah
+	G:\workplace\workplace-android\TestNDK>javah -classpath bin\classes -d jni com.eddy.testndk.TestNDK
+4. 生成so文件
+	在项目根目录下执行ndk-build
+	G:\workplace\workplace-android\TestNDK> ndk-build
