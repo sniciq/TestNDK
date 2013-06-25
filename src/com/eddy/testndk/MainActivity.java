@@ -3,6 +3,7 @@ package com.eddy.testndk;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
@@ -13,8 +14,9 @@ public class MainActivity extends Activity {
 		
 		TestNDK tn = new TestNDK();
 		int s = tn.add(12, 1);
-		System.out.println(s);
 		
+		TextView tv = (TextView) findViewById(R.id.contentText);
+		tv.setText(s + "");
 	}
 
 	@Override

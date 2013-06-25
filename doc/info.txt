@@ -1,5 +1,5 @@
 1. Android NDK
-2. Ä¿Â¼£º
+2. Ä¿Â¼ï¿½ï¿½
    src
    bin
    jni
@@ -10,8 +10,19 @@
       armeabi
          .....so
          
-3. ±àÒëjavah
+3. ï¿½ï¿½ï¿½ï¿½javah
 	G:\workplace\workplace-android\TestNDK>javah -classpath bin\classes -d jni com.eddy.testndk.TestNDK
-4. Éú³ÉsoÎÄ¼þ
-	ÔÚÏîÄ¿¸ùÄ¿Â¼ÏÂÖ´ÐÐndk-build
+4. ï¿½ï¿½ï¿½soï¿½Ä¼ï¿½
+	ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½Ä¿Â¼ï¿½ï¿½Ö´ï¿½ï¿½ndk-build
 	G:\workplace\workplace-android\TestNDK> ndk-build
+	
+	
+C:\Program Files\Java\jdk1.6.0_16\include\win32
+C:\Program Files\Java\jdk1.6.0_16\include
+c:\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++
+c:\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward
+c:\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include
+c:\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed
+c:\cygwin\usr\include
+c:\cygwin\usr\include\w32api	
